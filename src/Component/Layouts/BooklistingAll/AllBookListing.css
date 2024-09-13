@@ -1,0 +1,29 @@
+.allbook-listing-container{
+    padding-top: 8rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+   padding: 0 1rem;
+    grid-gap: 2rem;
+}
+
+.grid-items{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+        grid-gap: 1rem;
+    }
+}

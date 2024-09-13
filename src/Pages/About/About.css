@@ -1,0 +1,152 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 900px;
+    font-family: sans-serif;
+}
+
+.about-intro{
+    margin: 20px 0;
+    font-size: 3rem;
+    color: var(--primary-bright-color);
+    font-weight: 700;
+}
+
+.about-us h3{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 20px 0;
+    color: var(--primary-bright-color);
+}
+
+.about-us p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin: 10px 0;
+}
+
+.query-form{
+    background-color: #222;
+    width: 100%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.query-head{
+    margin-top: 1rem;
+    color: var(--white-color);
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.footer-form{
+    padding-top: 3rem;
+    width: 50%;
+}
+
+.form-group{
+    padding: 1rem 0;
+}
+
+.form-label{
+    display:inline-block;
+    color: var(--white-color);
+    padding-bottom: 10px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-submit{
+    display: inline-block;
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 0.8rem 2rem;
+    transition: 0.3s ease-in;
+}
+
+.form-submit:hover{
+    background-color: var(--white-color);
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .about-intro {
+        font-size: 2.5rem;
+    }
+
+    .about-us h3 {
+        font-size: 1.8rem;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+
+    .footer-form {
+        width: 80%;
+    }
+
+    .form-input {
+        font-size: 0.9rem;
+    }
+
+    .form-submit {
+        padding: 0.7rem 1.5rem;
+    }
+
+    .query-form {
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .about-intro {
+        font-size: 2rem;
+    }
+
+    .about-us h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-us p {
+        font-size: 0.9rem;
+    }
+
+    .footer-form {
+        width: 100%;
+        padding-top: 2rem;
+    }
+
+    .form-input {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+
+    .form-submit {
+        padding: 0.6rem 1.2rem;
+    }
+
+    .query-form {
+        padding-left: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .query-head {
+        font-size: 1.4rem;
+    }
+}

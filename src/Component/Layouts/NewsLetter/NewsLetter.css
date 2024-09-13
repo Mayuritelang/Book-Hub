@@ -1,0 +1,124 @@
+.news-letters{
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 50px;
+    margin-bottom: 100px;
+    background: black;
+    gap: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.news-letters h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+}
+
+.news-letters p{
+    color: aliceblue;
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+}
+
+.news-letters div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    max-width: 730px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-letters input{
+    flex: 1;
+    padding: 0 20px;
+    border: none;
+    outline: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.news-letters div button{
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.news-letters div button:hover{
+    background-color: var(--primary-bright-color);
+}
+
+@media (max-width: 768px) {
+    .news-letters h1 {
+        font-size: 2.5rem; 
+    }
+
+    .news-letters p {
+        font-size: 1.1rem; 
+    }
+
+    .news-letters div {
+        height: 60px; 
+    }
+
+    .news-letters div button {
+        width: 150px; 
+        height: 60px; 
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-letters {
+        padding: 30px; 
+    }
+
+    .news-letters h1 {
+        font-size: 2rem; 
+
+    .news-letters p {
+        font-size: 1rem; 
+    }
+
+    .news-letters div {
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .news-letters input {
+        width: 100%; 
+        height: 50px;
+    }
+
+    .news-letters div button {
+        width: 100%; 
+        height: 50px; 
+        font-size: 16px;
+        margin-top: 10px; 
+    }
+}
+
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+   --primary-color: rgb(101, 101, 245);
+   --primary-bright-color: blue;
+   --white-color: #fff;
+}
+
+.text-primary{ color: var(--primary-color); }
+
+span{
+    font-family: Chivo Mono;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Chivo Mono;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+.flex{display: flex;}
+.align-item{align-items: center;}
+.justify-content{justify-content: space-between;}
+
+.button-primary{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-bright-color);
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    border: none;
+    font-family: Chivo Mono;
+    font-size: 1rem;
+}
